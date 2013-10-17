@@ -96,6 +96,12 @@ id="org.apache.cordova.media"
             <merges target="" />
         </js-module>
     </platform>
-    
-            
+
+    <!-- windows81 -->
+    <platform name="windows81">
+      <js-module src="src/windows8/MediaProxy.js" name="MediaProxy">
+        <merges target="" />
+      </js-module>
+    </platform>
+
 </plugin>
